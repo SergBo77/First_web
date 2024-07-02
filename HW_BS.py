@@ -1,8 +1,9 @@
+# Импортируем библиотеки
 import requests
 from bs4 import BeautifulSoup
 from googletrans import Translator
 
-
+# Функция для получения английских слов и их определений с веб-сайта
 def get_english_words():
     url = "https://randomword.com/"
     try:
